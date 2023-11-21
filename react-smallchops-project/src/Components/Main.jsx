@@ -142,7 +142,7 @@ const Main = () => {
 
         </div>
         <div className="thir-child-sec">
-            <div class="moving-images"><img src={movingImgfit} alt=""/></div>
+            <div class="moving-images"><img src={movingImg} alt=""/></div>
             <div>
                 <h2 id="Our-favorite">
                     Our favorite <br/> custom <br/> packages <br/> this week!</h2>
