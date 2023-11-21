@@ -1,4 +1,4 @@
-const Footer = (){
+const Footer = () => {
     return (
         <section className="footer">
 
@@ -11,7 +11,7 @@ const Footer = (){
                 <img src="./Assets/images/facebook-footer.svg" width="15px" height="15px"/>
             </div>
         </div>
-        <div class="B">
+        <div className="B">
             <div className="packages">
                 <ul id="corporate">
                     <li><a href="#" id="last-list">Packages</a></li>

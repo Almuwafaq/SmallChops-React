@@ -10,7 +10,7 @@ import './Css/smallChops.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
    <>
     <Header />
-    <Main/>
-    <Footer/>
+    <Main />
+    <Footer />
     </>
 )
