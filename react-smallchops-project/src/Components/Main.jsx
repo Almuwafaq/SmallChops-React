@@ -1,3 +1,12 @@
+import fSocialIcon from '../assets/images/twitter.svg'
+import sSocialIcon from '../assets/images/instagram.svg'
+import tSocialIcon from '../assets/images/social-icon-facebook.svg'
+import bigBowl from '../assets/images/Big-Bowl.png'
+import friesBowl from '../assets/images/bowl-fries-png.png'
+import Picknic from '../assets/images/picnic-mat-png.png'
+import ketchup from '../assets/images/ketchup-png.png'
+import redPeper from '../assets/images/red-pepper-opposite-png - Copy.png'
+
 const Main = () => {
     return (
       
@@ -5,11 +14,11 @@ const Main = () => {
     <div className="child-sec-A">
         <div class="social-icon">
             <p id="follow">FOLLOW US ON</p>
-            <div id="so-icon"><a href="#" id="ss-icon"><img src="./Assets/images/twitter.svg" width="20px"/></a>
+            <div id="so-icon"><a href="#" id="ss-icon"><img src={fSocialIcon} width="20px"/></a>
             </div>
-            <div id="so-icon"><a href="#" id="ss-icon"><img src="./Assets/images/instagram.svg" width="20px"/></a>
+            <div id="so-icon"><a href="#" id="ss-icon"><img src={sSocialIcon} width="20px"/></a>
             </div>
-            <div id="so-icon"><a href="#" id="ss-icon"><img src="./Assets/images/social-icon-facebook.svg"
+            <div id="so-icon"><a href="#" id="ss-icon"><img src={tSocialIcon}
                         width="10px"/></a></div>
         </div>
         <div className="sec-con1">
@@ -21,11 +30,11 @@ const Main = () => {
                     ending owambé - ORDER
                     NOW!</p>
             </div>
-            <div id="big-bow"><img src="./Assets/images/Big-Bowl.png" alt="" id="big-bow"/>
-                <img src="./Assets/images/bowl-fries-png.png" width="200px" id="bowl-fries"/>
-                <img src="./Assets/images/picnic-mat-png.png" width="200px" id="picnic-mat"/>
-                <img src="./Assets/images/ketchup-png.png" width="100px" id="ketchup"/>
-                <img src="./Assets/images/red-pepper-opposite-png - Copy.png" width="70px" id="red-pepper"/>
+            <div id="big-bow"><img src={bigBowl} alt="" id="big-bow"/>
+                <img src={friesBowl} width="200px" id="bowl-fries"/>
+                <img src={Picknic} width="200px" id="picnic-mat"/>
+                <img src={ketchup} width="100px" id="ketchup"/>
+                <img src={redPeper} width="70px" id="red-pepper"/>
             </div>
         </div>
         <div className="content-boxesA">
