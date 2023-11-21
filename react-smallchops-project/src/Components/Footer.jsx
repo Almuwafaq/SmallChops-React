@@ -1,14 +1,20 @@
+import made from '../assets/images/made-bg.svg'
+import twitterFooter from '../assets/images/twitter-footer.svg'
+import instaFooter from '../assets/images/instagram-footer.svg'
+import facebookFooter from '../assets/images/facebook-footer.svg'
+import footerImg from '../assets/images/footer-img.svg'
+
 const Footer = () => {
     return (
         <section className="footer">
 
         <div className="groupA">
-            <img src="./Assets/images/made-bg.svg" id="made-bg"/>
+            <img src={made} id="made-bg"/>
             <p id="us-on">Follow us on</p>
             <div className="footer-icons">
-                <img src="./Assets/images/twitter-footer.svg" width="15px"/>
-                <img src="./Assets/images/instagram-footer.svg" width="15px"/>
-                <img src="./Assets/images/facebook-footer.svg" width="15px" height="15px"/>
+                <img src={twitterFooter} width="15px"/>
+                <img src={instaFooter} width="15px"/>
+                <img src={facebookFooter} width="15px" height="15px"/>
             </div>
         </div>
         <div className="B">
@@ -30,7 +36,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="groupb">
-            <img src="./Assets/images/footer-img.svg" alt=""/>
+            <img src={footerImg} alt=""/>
         </div>
 
     </section>

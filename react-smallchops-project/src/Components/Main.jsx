@@ -6,6 +6,10 @@ import friesBowl from '../assets/images/bowl-fries-png.png'
 import Picknic from '../assets/images/picnic-mat-png.png'
 import ketchup from '../assets/images/ketchup-png.png'
 import redPeper from '../assets/images/red-pepper-opposite-png - Copy.png'
+import smallChopsBag from '../assets/images/small chops bag.png'
+import minus from '../assets/images/minus icon.png'
+import movingImg from '../assets/images/round-snacks.png'
+
 
 const Main = () => {
     return (
@@ -41,7 +45,7 @@ const Main = () => {
             <div className="samosa-minipack">
                 <div className="f-g">
                     <div class="">
-                        <a href="#"><img src="./Assets/images/small chops bag.png" alt="" id="smallchop-bag"/>
+                        <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Samosa <br/>Mini Pack</p>
                     </div>
@@ -62,7 +66,7 @@ const Main = () => {
                         <p id="per">perpack</p>
                     </div>
 
-                    <p id="minus-sign"><img src="./Assets/images/minus icon.png" width="20px"/></p>
+                    <p id="minus-sign"><img src={minus} width="20px"/></p>
 
                     <p id="zero">0</p>
                     <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
@@ -138,7 +142,7 @@ const Main = () => {
 
         </div>
         <div className="thir-child-sec">
-            <div class="moving-images"><img src="./Assets/images/round-snacks.png" alt=""/></div>
+            <div class="moving-images"><img src={movingImgfit} alt=""/></div>
             <div>
                 <h2 id="Our-favorite">
                     Our favorite <br/> custom <br/> packages <br/> this week!</h2>
