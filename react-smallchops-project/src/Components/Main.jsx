@@ -9,7 +9,8 @@ import redPeper from '../assets/images/red-pepper-opposite-png - Copy.png'
 import smallChopsBag from '../assets/images/small chops bag.png'
 import minus from '../assets/images/minus icon.png'
 import movingImg from '../assets/images/round-snacks.png'
-
+import plus from '../assets/images/plus icon.png'
+import whiteCart from '../assets/images/cart-icon-white.svg'
 
 const Main = () => {
     return (
@@ -69,15 +70,15 @@ const Main = () => {
                     <p id="minus-sign"><img src={minus} width="20px"/></p>
 
                     <p id="zero">0</p>
-                    <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
-                    <img src="./Assets/images/cart-icon-white.svg" id="white-cart"/>
+                    <p id="plus"><img src={plus} width="20px"/></p>
+                    <img src={whiteCart} id="white-cart"/>
                 </div>
             </div>
 
             <div className="samosa-minipack">
                 <div class="f-g">
                     <div class="">
-                        <a href="#"><img src="./Assets/images/small chops bag.png" alt="" id="smallchop-bag"/>
+                        <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Spring <br/> Roll Mini <br/> Pack</p>
                     </div>
@@ -98,17 +99,17 @@ const Main = () => {
                         <p id="per">perpack</p>
                     </div>
 
-                    <p id="minus-sign"><img src="./Assets/images/minus icon.png" width="20px"/></p>
+                    <p id="minus-sign"><img src={minus} width="20px"/></p>
 
                     <p id="zero">0</p>
-                    <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
-                    <img src="./Assets/images/cart-icon-white.svg" id="white-cart"/>
+                    <p id="plus"><img src={plus} width="20px"/></p>
+                    <img src={whiteCart} id="white-cart"/>
                 </div>
             </div>
             <div className="samosa-minipack">
                 <div className="f-g">
                     <div className="">
-                        <a href="#"><img src="./Assets/images/small chops bag.png" alt="" id="smallchop-bag"/>
+                        <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Everyday <br/>Pack</p>
                     </div>
@@ -131,11 +132,11 @@ const Main = () => {
                         <p id="per">per pack</p>
                     </div>
 
-                    <p id="minus-sign"><img src="./Assets/images/minus icon.png" width="20px"/></p>
+                    <p id="minus-sign"><img src={minus} width="20px"/></p>
 
                     <p id="zero">0</p>
-                    <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
-                    <img src="./Assets/images/cart-icon-white.svg" id="white-cart"/>
+                    <p id="plus"><img src={plus} width="20px"/></p>
+                    <img src={whiteCart} id="white-cart"/>
                 </div>
 
             </div>
@@ -156,7 +157,7 @@ const Main = () => {
             <div className="Aaaa">
                 <div className="f-g">
                     <div className="">
-                        <a href="#"><img src="./Assets/images/small chops bag.png" alt="" id="smallchop-bag"/>
+                        <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Samosa <br/>Mini Pack</p>
                     </div>
@@ -177,17 +178,17 @@ const Main = () => {
                         <p id="per">perpack</p>
                     </div>
 
-                    <p id="minus-sign"><img src="./Assets/images/minus icon.png" width="20px"/></p>
+                    <p id="minus-sign"><img src={minus}width="20px"/></p>
 
                     <p id="zero">0</p>
-                    <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
-                    <img src="./Assets/images/cart-icon-white.svg" id="white-cart"/>
+                    <p id="plus"><img src={plus}width="20px"/></p>
+                    <img src={whiteCart} id="white-cart"/>
                 </div>
             </div>
             <div className="Aaaa">
                 <div className="f-g">
                     <div className="">
-                        <a href="#"><img src="./Assets/images/small chops bag.png" alt="" id="smallchop-bag"/>
+                        <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Spring <br/> Roll Mini <br/> Pack</p>
                     </div>
@@ -208,17 +209,17 @@ const Main = () => {
                         <p id="per">perpack</p>
                     </div>
 
-                    <p id="minus-sign"><img src="./Assets/images/minus icon.png" width="20px"/></p>
+                    <p id="minus-sign"><img src={minus} width="20px"/></p>
 
                     <p id="zero">0</p>
-                    <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
-                    <img src="./Assets/images/cart-icon-white.svg" id="white-cart"/>
+                    <p id="plus"><img src={plus} width="20px"/></p>
+                    <img src={whiteCart} id="white-cart"/>
                 </div>
             </div>
             <div class="Aaaa">
                 <div class="f-g">
                     <div class="">
-                        <a href="#"><img src="./Assets/images/small chops bag.png" alt="" id="smallchop-bag"/>
+                        <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Everyday <br/>Pack</p>
                     </div>
@@ -241,11 +242,11 @@ const Main = () => {
                         <p id="per">per pack</p>
                     </div>
 
-                    <p id="minus-sign"><img src="./Assets/images/minus icon.png" width="20px"/></p>
+                    <p id="minus-sign"><img src={minus} width="20px"/></p>
 
                     <p id="zero">0</p>
-                    <p id="plus"><img src="./Assets/images/plus icon.png" width="20px"/></p>
-                    <img src="./Assets/images/cart-icon-white.svg" id="white-cart"/>
+                    <p id="plus"><img src={plus} width="20px"/></p>
+                    <img src={whiteCart} id="white-cart"/>
                 </div>
             </div>
         </div>
