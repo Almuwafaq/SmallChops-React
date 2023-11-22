@@ -11,11 +11,14 @@ import minus from '../assets/images/minus icon.png'
 import movingImg from '../assets/images/round-snacks.png'
 import plus from '../assets/images/plus icon.png'
 import whiteCart from '../assets/images/cart-icon-white.svg'
+import dinnerPic from '../assets/images/dinner pic.png'
+import siglePic from '../assets/images/sigle pic.png'
 
 const Main = () => {
     return (
       
-    <section className="ssec">
+     <section className="ssec">
+
     <div className="child-sec-A">
         <div class="social-icon">
             <p id="follow">FOLLOW US ON</p>
@@ -76,8 +79,8 @@ const Main = () => {
             </div>
 
             <div className="samosa-minipack">
-                <div class="f-g">
-                    <div class="">
+                <div className="f-g">
+                    <div className="">
                         <a href="#"><img src={smallChopsBag} alt="" id="smallchop-bag"/>
                         </a>
                         <p id="text-under">Spring <br/> Roll Mini <br/> Pack</p>
@@ -251,22 +254,24 @@ const Main = () => {
             </div>
         </div>
     </div>
-    {/* <div className="img-flex"/>
-        <div class="f-img"/>
-            <img src="./Assets/images/dinner pic.png" width="500px" id="garden-img"/>
+
+    <div className="img-flex">
+        <div className="f-img">
+            <img src={dinnerPic} width="500px" id="garden-img"/>
             <p id="ven">Event</p>
-            <p id="without">An event without Smallchops is definitely just a <br> gathering. It gets better; you
-                can customise your order <br> however you deem fit.</p>
+            <p id="without">An event without Smallchops is definitely just a <br/> gathering. It gets better; you
+                can customise your order <br/> however you deem fit.</p>
             <p id="order"><a href="">ORDER FOR YOUR EVENT</a></p>
         </div>
         <div className="s-img">
-            <img src="./Assets/images/sigle pic.png" width="500px" id="man-pic"/>
+            <img src={siglePic} width="500px" id="man-pic"/>
             <p id="porate">Corporate</p>
             <p id="without">Sometimes all you need for culture fit is a corporate <br/> hangout/event with a lot
                 Smallchops. This is what we go to work <br/> for.</p>
             <p id="order"><a href="">PLACE ORDER</a></p>
         </div>
-    </div> */}
+    </div>
+    
     <div className="cuscus">
         <h6 id="say">What our customers say about us</h6>
         <p id="heart">It takes a lot of heart and hard work at every step to make the best smallchops possible,
